@@ -1,4 +1,4 @@
-// STALK
+// CASE STALK
 case 'stalkig':
 if (args.length == 0) return reply(`Example: ${prefix + command} cosplaykawai`)
 axios.get(`https://api.lolhuman.xyz/api/stalkig/${args[0]}?apikey=${apikey}`).then(({ data }) => {
@@ -49,5 +49,20 @@ caption += `Likes : ${data.result.likes}\n`
 caption += `Video : ${data.result.video}\n`
 caption += `Bio : ${data.result.bio}\n`
 conn.sendMessage(from, { image: { url: data.result.user_picture }, caption })
+})
+break
+// CASE STIKER
+case 'stickerwa':
+if (args.length == 0) return reply(`Example: ${prefix + command} loli kawaii`)
+axios.get(`https://api.lolhuman.xyz/api/stickerwa?apikey=${apikey}&query=${args}`).then(({ data }) => {
+let pack = data.result.random()
+let sticker = pack.stickers.random()
+conn.sendMessage(from, { sticker: { url: `https://api.lolhuman.xyz/api/convert/towebp?apikey=${apikey}&img=${sticker}` }, caption })
+})
+break
+case 'telesticker':
+if (args.length == 0) return reply(`Example: ${prefix + command} https://t.me/addstickers/LINE_Menhera_chan_ENG`)
+axios.get(`https://api.lolhuman.xyz/api/telestick?apikey=${apikey}&url=${args[0]}`).then(({ data }) => {
+conn.sendMessage(from, { sticker: { url: data.result.sticker.random() } })
 })
 break
