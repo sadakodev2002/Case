@@ -1,32 +1,50 @@
-乂    *Group 𝘔𝘦𝘯𝘶* 
+乂    *Downloader Menu* 
 
-  *≻* antilink    
-  *≻* antilinkgc   
-  *≻* antivirtex
-  *≻* antiasing
-  *≻* infogc✓ ${feat("infogx")? yes :no}
-  *≻* linkgc✓ ${feat("linkgc")? yes :no}
-  *≻* setppgc✓ ${feat("setppgc")? yes :no}
-  *≻* setnamegc✓ ${feat("setnamegc")? yes :no}
-  *≻* setdesc✓ ${feat("setdesc")? yes :no}
-  *≻* gc ${feat("gc")? yes :no}
-  *≻* revoke✓ ${feat("revoke")? yes :no}
-  *≻* hidetag✓ ${feat("hidetag")? yes :no}
-  *≻* kick✓ ${feat("kick")? yes :no}
-  *≻* add✓ ${feat("add")? yes :no}
-  *≻* opentime✓ ${feat("opentime")? yes :no}
-  *≻* closetime✓ ${feat("closetime")? yes :no}
-  *≻* demote✓ ${feat("demote")? yes :no}
-  *≻* promote✓ ${feat("promote")? yes :no}
-  *≻* kickme✓ ${feat("kickme")? yes :no}
-  *≻* banchat✓ ${feat("banchat")? yes :no}
-  *≻* unbanchat✓ ${feat("unbanchat")? yes :no}
-  *≻* ban✓ ${feat("ban")? yes :no}
-  *≻* unban✓ ${feat("unban")? yes :no}
-  *≻* listban✓ ${feat("listban")? yes :no}
-  *≻* getppgc✓ ${feat("getppgc")? yes :no}
-  *≻* getpp✓ ${feat("getpp")? yes :no}
-  *≻* listonline✓ ${feat("lostoneline")? yes :no}
+play ✓ ${feat("play")? yes :no}
+playmusic ✓ ${feat("playmusic")? yes :no}
+ig ✓ ${feat("ig")? yes :no}
+gimage✓ ${feat("gimage")? yes :no}
+tiktok ${feat("tiktok")? yes :no}
+tiktokmusic✓ ${feat("tiktokmusik")? yes :no}
+tiktoknowm✓ ${feat("tiktoknowm")? yes :no}
+pinterest✓ ${feat("pinterest")? yes :no}
+mediafire✓ 
+zippy
+githubdl✓ ${feat("githubdl")? yes :no}
+gitclone ✓ ${feat("gitclone")? yes :no}
+igstory ${feat("igstory")? yes :no}
+ytmp4✓ ${feat("ytmp4")? yes :no}
+ytmp3✓ ${feat("ytmp3")? yes :no}
+  
+乂    *Group Menu* 
+
+*≻* antilink    
+*≻* antilinkgc   
+*≻* antivirtex
+*≻* antiasing
+*≻* infogc ${feat("infogx")? yes :no}
+*≻* linkgc ${feat("linkgc")? yes :no}
+*≻* setppgc ${feat("setppgc")? yes :no}
+*≻* setnamegc ${feat("setnamegc")? yes :no}
+*≻* setdesc ${feat("setdesc")? yes :no}
+*≻* gc ${feat("gc")? yes :no}
+*≻* revoke ${feat("revoke")? yes :no}
+*≻* hidetag ${feat("hidetag")? yes :no}
+*≻* kick ${feat("kick")? yes :no}
+*≻* add ${feat("add")? yes :no}
+*≻* opentime ${feat("opentime")? yes :no}
+*≻* closetime ${feat("closetime")? yes :no}
+*≻* demote ${feat("demote")? yes :no}
+*≻* promote ${feat("promote")? yes :no}
+*≻* kickme ${feat("kickme")? yes :no}
+*≻* banchat ${feat("banchat")? yes :no}
+*≻* unbanchat ${feat("unbanchat")? yes :no}
+*≻* ban ${feat("ban")? yes :no}
+*≻* unban ${feat("unban")? yes :no}
+*≻* listban ${feat("listban")? yes :no}
+*≻* getppgc ${feat("getppgc")? yes :no}
+*≻* getpp ${feat("getpp")? yes :no}
+*≻* listonline ${feat("lostoneline")? yes :no}
 
   
   ╭─▸ 𝘛𝘰𝘰𝘭𝘴
@@ -102,25 +120,7 @@
   │
   ╰────────────˧
 
-  ╭─▸ 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳
-  │
-  ├ play ✓ ${feat("play")? yes :no}
-  ├ playmusic ✓ ${feat("playmusic")? yes :no}
-  ├ ig ✓ ${feat("ig")? yes :no}
-  ├ gimage✓ ${feat("gimage")? yes :no}
-  ├ tiktok ${feat("tiktok")? yes :no}
-  ├ tiktokmusic✓ ${feat("tiktokmusik")? yes :no}
-  ├ tiktoknowm✓ ${feat("tiktoknowm")? yes :no}
-  ├ pinterest✓ ${feat("pinterest")? yes :no}
-  ├ mediafire✓ 
-  ├ zippy
-  ├ githubdl✓ ${feat("githubdl")? yes :no}
-  ├ gitclone ✓ ${feat("gitclone")? yes :no}
-  ├ igstory ${feat("igstory")? yes :no}
-  ├ ytmp4✓ ${feat("ytmp4")? yes :no}
-  ├ ytmp3✓ ${feat("ytmp3")? yes :no}
-  │
-  ╰────────────˧
+
   
   ╭─▸ 𝘐𝘮𝘢𝘨𝘦 𝘔𝘢𝘬𝘦𝘳
   │
@@ -304,19 +304,21 @@
    │
    ╰────────────˧ 
    
-   ╭─▸ 𝘛𝘩𝘢𝘯𝘬𝘴 𝘵𝘰
-   │
-   │ • Irfan Hariyanto
-   │ • Dittaz
-   │ • Nina Kawai
-   │ • Resta Gamteng :v
-   │ • Zeeone Ofc
-   │ • Yudha Perdana
-   │ • Yogi PW
-   │ • Decode Denpa
-   │ • Fernazer
-   │ • X - Dev Team
-   │ • XChillDs & Yuzu
-   │ • Dika Ardnt
-   │ 
-   ╰────────────˧
+
+乂    *Thanks To* 
+
+• Irfan Hariyanto
+• Dittaz
+• Danu57P
+• Nina Kawai
+• Resta Gamteng :v
+• Zeeone Ofc
+• Yudha Perdana
+• Yogi PW
+• Decode Denpa
+• Fernazer
+• X - Dev Team
+• XChillDs & Yuzu
+• Dika Ardnt
+
+
